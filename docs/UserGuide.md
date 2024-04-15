@@ -33,10 +33,10 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       <br>
 4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
-      ![Ui](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
+      ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
     - Click "Ok".
     - Command prompt window will appear in a few seconds. Command prompt window should look similar the image below.<br>
-      ![Ui](images/QuickStart/Windows/CommandPrompt.png)<br>
+      ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
       <br>
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
@@ -46,11 +46,11 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    - You can refer to the image below.<br>
      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_ might be different from yours.<br>
    
-   ![Ui](images/QuickStart/Windows/jarmybookshelf.png)<br>
+   ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
      <br>
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
-   ![Ui](images/QuickStart/Windows/default.png)<br>
+   ![windows default Ui](images/QuickStart/Windows/default.png)<br>
 
 7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
@@ -72,9 +72,9 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 4. Access the terminal.
     - Open the Spotlight search window using Command + Space, then type "Terminal".
     - Double-click on Terminal in search result.<br>
-      ![Ui](images/QuickStart/MacOS/search.png)<br>
+      ![finder search terminal result](images/QuickStart/MacOS/search.png)<br>
     - Terminal window will appear in a few seconds. Terminal window should look similar the image below.<br>
-      ![Ui](images/QuickStart/MacOS/terminal.png)<br>
+      ![terminal](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
       <br>
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
@@ -83,12 +83,12 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    ```
     - You can refer to the image below.<br>
       _Note_: Your directory might be different from the image.<br>
-    ![Ui](images/QuickStart/MacOS/jarmybookshelf.png)<br>
+    ![terminal java -jar mybookshelf.jar](images/QuickStart/MacOS/jarmybookshelf.png)<br>
       <br>
 
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
-   ![Ui](images/QuickStart/MacOS/default.png)
+   ![macos default Ui](images/QuickStart/MacOS/default.png)
 
 7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
