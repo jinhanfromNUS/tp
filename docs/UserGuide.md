@@ -26,7 +26,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
    - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
      <br>
-
+     <br>
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -34,7 +34,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
       <br>
-
+      <br>
 4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
       ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
@@ -43,7 +43,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
       <br>
-
+      <br>
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
@@ -76,6 +76,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
       <br>
+      <br>
 4. Access the terminal.
     - Open the Spotlight search window using Command + Space, then type "Terminal".
     - Double-click on Terminal in search result.<br>
@@ -84,7 +85,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![terminal](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
       <br>
-
+      <br>
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
@@ -96,7 +97,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
-   ![macos default Ui](images/QuickStart/MacOS/default.png)
+   ![macos default Ui](images/QuickStart/MacOS/default.png)<br>
 
 7. Type the command into the command box and press Enter to execute it. E.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
