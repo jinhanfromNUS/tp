@@ -6,20 +6,28 @@ pageNav: 3
 
 # MyBookshelf User Guide
 
-What happens if.
+Community libraries are a testament to the goodwill of the community, but **what is stopping bad actors from taking advantage of your library?**
 
-*MyBookshelf* is a desktop application for community library managers to better manage library user contacts, books, and borrowing activity.
+Welcome to *MyBookshelf*, a desktop application for **Community Library Managers** like you! 
 
-It is optimised for use via a **Command Line Interface (CLI)** while not compromising on the benefits of a **Graphical User Interface (GUI)**.
+*MyBookshelf* is here to provide you with a **framework** to better manage library user contacts, books, and borrowing activity.
 
-Tailored for fast typists, MyBookshelf can get your contact and borrowing management tasks done faster than traditional GUI apps.
+*MyBookshelf* provides you with a **contact list** to help keep track of library users, a **library** to keep track of your books and a novel **Merit Score** system to help manage library users' ability to borrow books.
+
+This application is tailored for fast typists, optimised for use via a [**Command Line Interface (CLI)**](#glossary) while not compromising on the benefits of a [**Graphical User Interface (GUI)**](#glossary).
+
+If you need help with running *MyBookshelf*, this user guide is designed to help you with:
+* Installation,
+* Understanding the user interface and commands,
+* Troubleshooting issues and answer queries and,
+* Giving you a sneak peek to future updates!
 
 <!-- * Table of Contents -->
 <page-nav-print />
 
 --------------------------------------------------------------------------------------------------------------------
 
-## Quick start
+## Quick Installation
 
 ### Windows
 1. Ensure that you have `Java 11` or above installed in your computer.
@@ -112,13 +120,13 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 ![result for 'Ui_Annotated'](images/cmdimages/Ui_Annotated.png)
 
 
-1. **Taskbar:** Where library managers can access the `File` and `Help` tabs.
-2. **Command Box:** Where library managers can type in their commands into *MyBookshelf*.
-3. **Result Box:** This is where *MyBookshelf* returns the relevant output to the commands received.
+1. **Taskbar:** Where you can access the `File` and `Help` tabs.
+2. **Command Box:** Where you can type in their commands into *MyBookshelf*.
+3. **Result Box:** This is where *MyBookshelf* returns the relevant output to the commands you had typed in.
 4. **Contact List:** Contains the list of **Library User Information**.
 5. **Library User Information:** This is where the particulars of individual library users are displayed at. More details to follow in the next part.
-6. **Library:** Contains the list of **Books** currently available in the library.
-7. **Books:** Identified by their titles, this is where each book in the library is displayed.
+6. **Library:** Contains the list of **Books** currently available in your library.
+7. **Books:** Identified by their titles, this is where each book in your library is displayed.
 
 
 ### Library User Information:
@@ -664,19 +672,19 @@ You might see something similar to the image below when the command does not run
 ## Future Features
 
 ### Introducing more flexibility for `clear`
-1. Will be adding a `clearlib` command to clear all books currently in the library.
+1. Will be adding a `clearlib` command to clear all books currently in your library.
 2. Will rename the current `clear` command to `clearuser` to clear all the data of library users.
 3. Will be adding a `clearall` command to clear both library book and library user data.
 
 ### Introducing the `findbook` command
-1. As the number of books in the library increases, the library manager has to spend more time scrolling through the list to search for a book.
+1. As the number of books in your library increases, you will have to spend more time scrolling through the list to search for a book.
 2. The `findbook` command will allow the library manager quickly check for the existence of a specific book in the library.
-3. This will also allow us to explore the use of indexing to run commands that modify the book list instead of having to do so with the lengthy book title.
+3. This will also allow you to explore the use of indexing to run commands that modify the book list instead of having to do so with the lengthy book title.
 
 ### Introducing the `undo` and `redo` commands
 1. Even the most meticulous and fastest typists are bound to make some unintended errors.
-2. With the `undo` command, user experience will be enhanced as these mistakes can be reverted with a simple yet effective command.
-3. Similarly, the addition of the `redo` command further improves user experience by allowing users to effortlessly revert back to undone actions, refining the process.
+2. With the `undo` command, your experience will be enhanced as these mistakes can be reverted with a simple yet effective command.
+3. Similarly, the addition of the `redo` command further improves your experience by allowing users to effortlessly revert back to undone actions, refining the process.
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -734,7 +742,7 @@ With the current features, there is no direct command to manually decrease the m
 
 <box type="warning" seamless>
 
-**Warning:** Due to current limitations, following this method **will force** the library user to alter their list of books.
+**Warning:** Due to current limitations, following this method **will force** the library user's book list to change.
 
 </box>
 
