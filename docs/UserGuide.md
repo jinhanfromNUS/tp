@@ -182,13 +182,13 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
    * Only alphanumeric names with spaces can be used.
    * Not allowed to add special characters like `/`, `-` and `,` in names.
    * `NAME` is case-sensitive.
-
-
+<br>
+<br>
 * `PHONE_NUMBER`: The phone number of the library user.
   * Requires a minimum of 3 digits.
   * No maximum limit currently set on the phone number.
-
-
+<br>
+<br>
 * `EMAIL`: The email address of the library user.
   * Valid as long as it follows the format of `local-part@domain`.
   * `local-part` contains alphanumeric characters and some special characters such as `+`, `_`, `.` and `-`.
@@ -199,32 +199,32 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
     * Each `domain label` must be at least 2 characters long.
     * Each `domain label` must start and end with alphanumeric characters.
     * Each `domain label` contains alphanumeric characters, separated only by `-`, if any.
-
-
+<br>
+<br>
 * `ADDRESS`: The home address of the library user.
   * Can take on any values, but should not be blank.
-
-
+<br>
+<br>
 * `TAG`: To associate library users with extra information.
   * Only alphanumeric tags can be used.
   * No spaces allowed within a tag (only a single word per tag).
-
-
+<br>
+<br>
 * `INDEX`: The number associated with the position of each library user in the current displayed Contact List.
   * Assigned to library users based on the order added into the contact list.
   * Takes in a **positive integer** (e.g. 1, 2, 3, …​) up to the last `INDEX` in the contact list.
   * Can only take up to 2147483647.
-
-
+<br>
+<br>
 * `KEYWORD`: The part of the word you are searching for.
   * `KEYWORD` is case-insensitive.
-
-
+<br>
+<br>
 * `BOOKTITLE`: The title of the book.
   * Can take on any values, but should not be blank.
   * `BOOKTITLE` is case-sensitive.
-
-
+<br>
+<br>
 * `THRESHOLD`: The merit score limit set for each library user.
   * Takes in integer values.
   * Can only take in values from -2147483648 to 2147483647.
@@ -628,7 +628,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
     * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/`
-        * Please check [Unable to add/donate/return a book from the library](#unable-to-adddonatereturn-a-book-to-the-library).
+        * Please check [Unable to add/donate/return a book from the library](#unable-to-add-donate-return-a-book-to-the-library).
 
 ### Library user is unable to borrow a book
 1. Error message received: `The person index provided is invalid.`
@@ -644,7 +644,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
    * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/` or `Book: BOOKTITLE is not available in the library.`
-      * Please check [Unable to delete/borrow a book from the library](#unable-to-deleteborrow-a-book-from-the-library).
+      * Please check [Unable to delete/borrow a book from the library](#unable-to-delete-borrow-a-book-from-the-library).
 
 ### Library user is unable to return a book
 1. Error message received: `The person index provided is invalid.`
@@ -663,7 +663,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
     * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/`
-        * Please check [Unable to add/donate/return a book to the library](#unable-to-adddonatereturn-a-book-to-the-library).
+        * Please check [Unable to add/donate/return a book to the library](#unable-to-add-donate-return-a-book-to-the-library).
 
 
 --------------------------------------------------------------------------------------------------------------------
