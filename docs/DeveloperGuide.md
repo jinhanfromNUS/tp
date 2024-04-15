@@ -19,7 +19,7 @@ _{ list here sources of all reused/adapted ideas, code, documentation, and third
 1. Youtube video to check Java version (https://www.youtube.com/watch?v=3nOmkqO0-SM).
 1. Download Java 11 (https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 1. How to deal with issue of opening command prompt (https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
-1. Download Java 11 (https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
+1. Download Java 11 (https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx).
 1. How to deal with issues of opening terminal (https://discussions.apple.com/thread/366608?sortBy=best).
 1. ASCII table (https://www.javatpoint.com/java-ascii-table).
 
