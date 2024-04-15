@@ -40,20 +40,20 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
 
 1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
-  ```
-  java -jar mybookshelf.jar
-  ```
+   ```
+   java -jar mybookshelf.jar
+   ```
    - You can refer to the image below.<br>
      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_FOR_MYBOOKSHELF_ might be different from yours.<br>
    ![Ui](images/QuickStart/Windows/jarmybookshelf.png)<br>
 
-1. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
+6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
    ![Ui](images/QuickStart/Windows/default.png)<br>
 
-1. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
+7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
-1. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
+8. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
 
 
 ### MacOS
@@ -85,13 +85,13 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     ![Ui](images/QuickStart/MacOS/jarmybookshelf.png)<br>
 
 
-1. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
+6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
    ![Ui](images/QuickStart/MacOS/default.png)
 
-1. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
+7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
-1. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
+8. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -680,6 +680,8 @@ Furthermore, certain edits can cause the MyBookshelf to behave in unexpected way
 --------------------------------------------------------------------------------------------------------------------
 
 ## Known issues
+
+MyBookshelf is always a Work-In-Progress as we are constantly refining our application for your needs. Listed below are some of our planned enhancements as well as current limitations, to keep you abreast of the current state of our application.
 
 1. **When using multiple screens**, if you move the application to a secondary screen, and switch back to the primary screen, the GUI will open off-screen. The remedy is to delete the `preferences.json` file created by the application before running the application again.
 2. Email does not check for presence of **top-level domain**, such as `.com`, `.net` and `.org`. Refer to the Developer Guide for more information.
