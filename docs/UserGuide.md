@@ -6,6 +6,8 @@ pageNav: 3
 
 # MyBookshelf User Guide
 
+What happens if.
+
 *MyBookshelf* is a desktop application for community library managers to better manage library user contacts, books, and borrowing activity.
 
 It is optimised for use via a **Command Line Interface (CLI)** while not compromising on the benefits of a **Graphical User Interface (GUI)**.
@@ -24,6 +26,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
    - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
      <br>
+
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -31,6 +34,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
       <br>
+
 4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
       ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
@@ -39,15 +43,17 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
       <br>
+
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
    - You can refer to the image below.<br>
      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_ might be different from yours.<br>
-   
+
    ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
      <br>
+
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
    ![windows default Ui](images/QuickStart/Windows/default.png)<br>
@@ -62,6 +68,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
     - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
       <br>
+
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -77,6 +84,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![terminal](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
       <br>
+
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
@@ -90,7 +98,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 
    ![macos default Ui](images/QuickStart/MacOS/default.png)
 
-7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
+7. Type the command into the command box and press Enter to execute it. E.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
 8. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
 
@@ -246,7 +254,7 @@ Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`
 
 </box>
 
-<box type="note" seamless>
+<box type="info" seamless>
 
 **Note:** User with name identical to another user is deemed as a duplicate (case-sensitive), even when other information is different.
 
@@ -309,15 +317,15 @@ Finds library users whose names matches any of the given keywords.
 
 Format: `find KEYWORD [MORE_KEYWORDS]`
 
-* The search (`KEYWORD`) is case-insensitive. e.g `hans` will match `Hans`
-* The order of the keywords does not matter. e.g. `Hans Bo` will match `Bo Hans`
+* The search (`KEYWORD`) is case-insensitive. E.g `hans` will match `Hans`.
+* The order of the keywords does not matter. E.g. `Hans Bo` will match `Bo Hans`.
 * Only the name is searched.
-* Only full words will be matched e.g. `Han` will not match `Hans`
+* Only full words will be matched. E.g. `Han` will not match `Hans`.
 * All library users matching at least one keyword will be returned (i.e. `OR` search).
-  e.g. `Hans Bo` will return `Hans Gruber`, `Bo Yang`
+  E.g. `Hans Bo` will return `Hans Gruber`, `Bo Yang`
 
 Example:
-* `find kokoro mashiro` returns `Kokoro Tsurumaki`, `Mashiro Kurata`
+* `find kokoro mashiro` returns `Kokoro Tsurumaki`, `Mashiro Kurata`.
   ![result for 'find'](images/cmdimages/find.png)
 
 
@@ -438,7 +446,7 @@ Format: `donate INDEX b/BOOKTITLE`
 * This index refers to the index number associated with the target library user in the contact list.
 * Donating a book increases the library user's merit score by 1.
 
-<box type="note" seamless>
+<box type="info" seamless>
 
 **Note:** This differs from `addbook` as this command also increases the merit score of the associated library user.
 
@@ -479,7 +487,7 @@ Clears all entries of library users from the contact list.
 
 Format: `clear`
 
-<box type="note" seamless>
+<box type="info" seamless>
 
 **Note:** `clear` only supports clearing all users in the contact list. To clear all books from the library, refer to the tutorial on [clearing the library](#how-to-clear-the-whole-library).
 
@@ -563,7 +571,7 @@ You might see something similar to the image below when the command does not run
       * Resolve this issue by adding character(s) to the `BOOKTITLE`.
    * Reason two: You attempted to add/donate/return a book which only consists of white space(s).
       * Resolve this issue by altering the `BOOKTITLE` so it consists at least one non-white space character.
-   
+
 1. Error message received: `Multiple values specified for the following single-valued field(s): b/`
    * Reason one: You attempted to add/donate/return a book with `BOOKTITLE` containing " b/". (Note the white space before "b"). In this case, `BOOKTITLE` is interpreted to be "Please b/ careful".
       * Since `b/` is the prefix of `Book`, MyBookshelf restricts commands with `BOOKTITLE` containing " b/".
@@ -585,7 +593,7 @@ You might see something similar to the image below when the command does not run
       * Since `b/` is the prefix of `Book`, MyBookshelf restricts commands with `BOOKTITLE` containing " b/".
       * Resolve this issue by removing "/" in `BOOKTITLE` (e.g. Please b careful) or;
       * Resolve this issue by adding a filler character (e.g. ".") in front of "b/" in `BOOKTITLE` (e.g. Please ./b careful).
-   * Reason two: You attempted to delete/borrow multiple books (e.g. delbook b/Book 1 b/Book 2)
+   * Reason two: You attempted to delete/borrow multiple books (e.g. delbook b/Book 1 b/Book 2).
       * MyBookshelf restricts deleting/borrowing multiple books in a single command.
       * Resolve this issue by deleting/borrowing the books one by one.
 
@@ -612,7 +620,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
     * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/`
-        * Please check [Unable to add/donate/return a book from the library](#unable-to-adddonatereturn-a-book-to-the-library)
+        * Please check [Unable to add/donate/return a book from the library](#unable-to-adddonatereturn-a-book-to-the-library).
 
 ### Library user is unable to borrow a book
 1. Error message received: `The person index provided is invalid.`
@@ -628,7 +636,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
    * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/` or `Book: BOOKTITLE is not available in the library.`
-      * Please check [Unable to delete/borrow a book from the library](#unable-to-deleteborrow-a-book-from-the-library)
+      * Please check [Unable to delete/borrow a book from the library](#unable-to-deleteborrow-a-book-from-the-library).
 
 ### Library user is unable to return a book
 1. Error message received: `The person index provided is invalid.`
@@ -647,7 +655,7 @@ You might see something similar to the image below when the command does not run
 
 1. Other error message received:
     * `Book title cannot be empty!` or `Multiple values specified for the following single-valued field(s): b/`
-        * Please check [Unable to add/donate/return a book to the library](#unable-to-adddonatereturn-a-book-to-the-library)
+        * Please check [Unable to add/donate/return a book to the library](#unable-to-adddonatereturn-a-book-to-the-library).
 
 
 --------------------------------------------------------------------------------------------------------------------
@@ -725,7 +733,7 @@ With the current features, there is no direct command to manually decrease the m
 
 <box type="warning" seamless>
 
-**Warning:** Due to current limitations, following this method **will force** the library user to alter their list of books
+**Warning:** Due to current limitations, following this method **will force** the library user to alter their list of books.
 
 </box>
 
@@ -752,7 +760,7 @@ Keeping the placeholder books titled the same and using characters that can be s
 
 Using this method will not alter the library user's book list. Please read the above section on [Editing Data Files](#editing-the-data-files) before proceeding.
 
-1. Locate the data file at this file location: `[JAR file location]/data/addressbook.json`
+1. Locate the data file at this file location: `[JAR file location]/data/addressbook.json`.
 1. Open the file with any valid application of your choice. For this example, we will open the file with Notepad on Windows.
 1. Locate the library user you wish to edit and edit their merit score.
 
@@ -766,7 +774,7 @@ The **safest** method to clear the library would be to individually delete each 
 
 You can quickly delete books from the library by directly editing the data file. Please read the above section on [Editing Data Files](#editing-the-data-files) before proceeding.
 
-1. Locate the data file at this file location: `[JAR file location]/data/library.txt`
+1. Locate the data file at this file location: `[JAR file location]/data/library.txt`.
 1. Open the file with any text editor of your choice. For this example, we will open the file with Notepad on Windows.
 1. Delete all lines after the first line (first line is the number you have set as the limit for your library).
 
@@ -816,7 +824,7 @@ We also cannot guarantee that this will not cause unexpected behaviour in other 
 
 1. **Alphanumeric**: A character that is either a letter or a number.
 
-1. **Library User**: The people that are saved into the contact list of *MyBookshelf*. Sometimes referred to as "borrowers".
+1. **Library User**: The people that are saved into the contact list of *MyBookshelf*. Sometimes referred to as "borrowers" or "person".
 
 1. **Library Manager**: Community Library Managers (CLM) are the people using the MyBookshelf application. CLMs are responsible for adding, storing, and updating the entire library database via *MyBookshelf*.
 
