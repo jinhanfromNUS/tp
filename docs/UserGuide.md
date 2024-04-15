@@ -6,13 +6,21 @@ pageNav: 3
 
 # MyBookshelf User Guide
 
-What happens if.
+Community libraries are a testament to the goodwill of the community, but **what is stopping bad actors from taking advantage of your library?**
 
-*MyBookshelf* is a desktop application for community library managers to better manage library user contacts, books, and borrowing activity.
+Welcome to *MyBookshelf*, a desktop application for **Community Library Managers** like you! 
 
-It is optimised for use via a **Command Line Interface (CLI)** while not compromising on the benefits of a **Graphical User Interface (GUI)**.
+*MyBookshelf* is here to provide you with a **framework** to better manage library user contacts, books, and borrowing activity.
 
-Tailored for fast typists, MyBookshelf can get your contact and borrowing management tasks done faster than traditional GUI apps.
+*MyBookshelf* provides you with a contact list to help keep track of
+
+This application is tailored for fast typists, optimised for use via a [**Command Line Interface (CLI)**](#glossary) while not compromising on the benefits of a [**Graphical User Interface (GUI)**](#glossary).
+
+If you need help with running *MyBookshelf*, this user guide is designed to help you with:
+* Installation,
+* Understanding the user interface and commands,
+* Troubleshooting issues and answer queries and,
+* Giving you a sneak peek to future updates!
 
 <!-- * Table of Contents -->
 <page-nav-print />
