@@ -24,14 +24,14 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
    - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 
-1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
+2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
-1. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
+3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
     - Open your _file explorer_ with Windows Key + E or clicking the _file explorer_ icon.
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
 
-1. Access the command prompt.
+4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
       ![Ui](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
     - Click "Ok".
@@ -39,7 +39,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![Ui](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
 
-1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
+5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
@@ -61,14 +61,14 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
     - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
 
-1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
+2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
-1. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
+3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
     - Open your _finder_ by clicking the _finder_ icon.
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
 
-1. Access the terminal.
+4. Access the terminal.
     - Open the Spotlight search window using Command + Space, then type "Terminal".
     - Double-click on Terminal in search result.<br>
       ![Ui](images/QuickStart/MacOS/search.png)<br>
@@ -76,7 +76,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![Ui](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
 
-1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
+5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
