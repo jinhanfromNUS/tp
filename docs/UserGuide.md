@@ -26,7 +26,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
    - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
      <br>
-     
+
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -34,7 +34,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
       <br>
-      
+
 4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
       ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
@@ -43,17 +43,17 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
       <br>
-      
+
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
    - You can refer to the image below.<br>
      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_ might be different from yours.<br>
-   
+
    ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
      <br>
-     
+
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
    ![windows default Ui](images/QuickStart/Windows/default.png)<br>
@@ -68,7 +68,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
     - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
       <br>
-      
+
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -84,7 +84,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![terminal](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
       <br>
-      
+
 5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
@@ -571,7 +571,7 @@ You might see something similar to the image below when the command does not run
       * Resolve this issue by adding character(s) to the `BOOKTITLE`.
    * Reason two: You attempted to add/donate/return a book which only consists of white space(s).
       * Resolve this issue by altering the `BOOKTITLE` so it consists at least one non-white space character.
-   
+
 1. Error message received: `Multiple values specified for the following single-valued field(s): b/`
    * Reason one: You attempted to add/donate/return a book with `BOOKTITLE` containing " b/". (Note the white space before "b"). In this case, `BOOKTITLE` is interpreted to be "Please b/ careful".
       * Since `b/` is the prefix of `Book`, MyBookshelf restricts commands with `BOOKTITLE` containing " b/".
