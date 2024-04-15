@@ -553,6 +553,10 @@ Furthermore, certain edits can cause the MyBookshelf to behave in unexpected way
 
 ## Troubleshooting
 
+You might see something similar to the image below when the command does not run successfully.<br>
+![failing command](images/Troubleshoot/FailingCommand.jpg)
+<br>
+
 ### Unable to add/donate/return a book to the library
 1. Error message received: `Book title cannot be empty!`
    * Reason one: You attempted to add/donate/return a book with an empty book title.
