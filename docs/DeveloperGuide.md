@@ -551,8 +551,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 #### Extensions:
 * 2a. MyBookshelf detects invalid index.
     * 2a1. MyBookshelf notifies library manager with an error message.
-    * 2a2. Library manager [finds the library user in the contact list (UC4)](#use-case-uc4---find-a-library-user-in-the-contact-list).
-    * 2a3. If user does not exist, library manager [adds the new library user to the contact list (UC1)](#use-case-uc1---add-library-user-to-contact-list), else records down the index for later use in the edit process.
+    * 2a2. Library manager finds the library user in the contact list (UC4).
+    * 2a3. If user does not exist, library manager adds the new library user to the contact list (UC1), else records down the index for later use in the edit process.
 
   ***Use case resumes from step 2.***
 
@@ -599,8 +599,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 #### Extensions:
 * 2a. MyBookshelf detects an invalid index.
     * 2a1. MyBookshelf notifies library manager with an error message.
-    * 2a2. Library manager performs [Find a library user in the Contact List (UC4)](#use-case-uc4---find-a-library-user-in-the-contact-list).
-    * 2a3. Library manager performs [Delete a library user from the Contact List (UC5)](#use-case-uc5---delete-a-library-user-from-the-contact-list).
+    * 2a2. Library manager performs Find a library user in the Contact List (UC4).
+    * 2a3. Library manager performs Delete a library user from the Contact List (UC5).
 
   ***Use case resumes from step 2.***
 
@@ -623,8 +623,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 #### Extensions:
 * 3a. MyBookshelf detects an invalid index for library user.
     * 3a1. MyBookshelf notifies library manager with an error message.
-  * 3a2. Library manager performs [Find a library user in the Contact List (UC4)](#use-case-uc4---find-a-library-user-in-the-contact-list) and [Library user borrows a book (UC6)](#use-case-uc6---library-user-borrow-a-book).
-  * 3a3. If the library user does not exist, library manager performs [Add library user to the Contact List (UC1)](#use-case-uc1---add-library-user-to-contact-list) and [Library user borrows a book (UC6)](#use-case-uc6---library-user-borrow-a-book).
+    * 3a2. Library manager performs Find a library user in the Contact List (UC4) and Library user borrows a book (UC6).
+    * 3a3. If the library user does not exist, library manager performs Add library user to the Contact List (UC1) and Library user borrows a book (UC6).
 
   ***Use case resumes from step 3.***
 
@@ -655,8 +655,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 #### Extensions:
 * 3a. MyBookshelf detects invalid index for library user.
     * 3a1. MyBookshelf notifies library manager with an error message.
-    * 3a2. Library manager performs [Find a library user in the Contact List (UC4)](#use-case-uc4---find-a-library-user-in-the-contact-list).
-    * 3a3. Library manager performs [Library user returns a book (UC7)](#use-case-uc7---library-user-returns-a-book).
+    * 3a2. Library manager performs Find a library user in the Contact List (UC4).
+    * 3a3. Library manager performs Library user returns a book (UC7).
 
   ***Use case resumes from step 3.***
 
@@ -687,8 +687,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 #### Extensions:
 * 3a. MyBookshelf detects invalid index for the library user.
     * 3a1. MyBookshelf notifies library manager with an error message.
-    * 3a2. Library manager performs [Find a library user in the Contact List (UC4)](#use-case-uc4---find-a-library-user-in-the-contact-list) and [Library user donates a book (UC8)](#use-case-uc8---library-user-donates-a-book).
-    * 3a3. If library user does not exist, library manager performs [Add library user to the Contact List (UC1)](#use-case-uc1---add-library-user-to-contact-list) and [Library user donates a book (UC8)](#use-case-uc8---library-user-donates-a-book).
+    * 3a2. Library manager performs Find a library user in the Contact List (UC4) and Library user donates a book (UC8).
+    * 3a3. If library user does not exist, library manager performs Add library user to the Contact List (UC1) and Library user donates a book (UC8).
 
   ***Use case resumes from step 3.***
 
