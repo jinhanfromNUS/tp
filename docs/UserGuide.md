@@ -6,6 +6,8 @@ pageNav: 3
 
 # MyBookshelf User Guide
 
+What happens if.
+
 *MyBookshelf* is a desktop application for community library managers to better manage library user contacts, books, and borrowing activity.
 
 It is optimised for use via a **Command Line Interface (CLI)** while not compromising on the benefits of a **Graphical User Interface (GUI)**.
@@ -22,7 +24,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 ### Windows
 1. Ensure that you have `Java 11` or above installed in your computer.
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
-   - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
+   - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 
 1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
@@ -37,7 +39,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - Click "Ok".
     - Command prompt window will appear in a few seconds. Command prompt window should look similar the image below.<br>
       ![Ui](images/QuickStart/Windows/CommandPrompt.png)<br>
-    - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
+    - If you have issues opening command prompt, you can refer to this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
 
 1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
@@ -59,7 +61,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 ### MacOS
 1. Ensure that you have `Java 11` or above installed in your computer.
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
-    - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
+    - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx).
 
 1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
@@ -74,7 +76,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
       ![Ui](images/QuickStart/MacOS/search.png)<br>
     - Terminal window will appear in a few seconds. Terminal window should look similar the image below.<br>
       ![Ui](images/QuickStart/MacOS/terminal.png)<br>
-    - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
+    - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best).
 
 1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
@@ -89,7 +91,7 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 
    ![Ui](images/QuickStart/MacOS/default.png)
 
-7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
+7. Type the command into the command box and press Enter to execute it. E.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
 8. You can refer to [Glossary](#glossary) for the definition of some words used and [Command Summary](#command-summary) for a quick overview of the commands. Refer to the [Features](#features) below for more details of each command.
 
