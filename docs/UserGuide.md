@@ -77,10 +77,9 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
 
 1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
-  ```
-  java -jar mybookshelf.jar
-  ```
-
+   ```
+   java -jar mybookshelf.jar
+   ```
     - You can refer to the image below.<br>
       _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_FOR_MYBOOKSHELF_ might be different from yours.<br>
     ![Ui](images/QuickStart/MacOS/jarmybookshelf.png)<br>
