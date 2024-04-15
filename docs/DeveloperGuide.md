@@ -17,8 +17,10 @@ _{ list here sources of all reused/adapted ideas, code, documentation, and third
 1. This project is based on the AddressBook-Level3 project created by the [SE-EDU initiative](https://se-education.org).
 1. Library storage was based on JinHan's IP (https://github.com/jinhanfromNUS/ip/).
 1. Youtube video to check Java version (https://www.youtube.com/watch?v=3nOmkqO0-SM).
-1. How to download Java 11 (https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
+1. Download Java 11 (https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 1. How to deal with issue of opening command prompt (https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
+1. Download Java 11 (https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx).
+1. How to deal with issues of opening terminal (https://discussions.apple.com/thread/366608?sortBy=best).
 1. ASCII table (https://www.javatpoint.com/java-ascii-table).
 
 --------------------------------------------------------------------------------------------------------------------
