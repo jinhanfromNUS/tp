@@ -47,7 +47,7 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
       ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
     - Click "Ok".
-    - Command prompt window will appear in a few seconds. Command prompt window should look similar the image below.<br>
+    - Command prompt window will appear in a few seconds. Command prompt window should look similar to the image below.<br>
       ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
     - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
       <br>
@@ -58,8 +58,7 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
    ```
    - You can refer to the image below.<br>
      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_ might be different from yours.<br>
-
-   ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
+     ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
      <br>
 
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
@@ -76,7 +75,7 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
     - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
       <br>
-
+      <br>
 2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
 3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
@@ -87,9 +86,9 @@ If you need help with running *MyBookshelf*, this user guide is designed to help
       <br>
 4. Access the terminal.
     - Open the Spotlight search window using Command + Space, then type "Terminal".
-    - Double-click on Terminal in search result.<br>
       ![finder search terminal result](images/QuickStart/MacOS/search.png)<br>
-    - Terminal window will appear in a few seconds. Terminal window should look similar the image below.<br>
+    - Double-click on Terminal in search result.<br>
+    - Terminal window will appear in a few seconds. Terminal window should look similar to the image below.<br>
       ![terminal](images/QuickStart/MacOS/terminal.png)<br>
     - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
       <br>
