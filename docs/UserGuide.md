@@ -24,34 +24,39 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 ### Windows
 1. Ensure that you have `Java 11` or above installed in your computer.
    - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
-   - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
+   - If you do not have `Java 11`, you are recommended to download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
+     <br>
 
-1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
+2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
-1. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
+3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
     - Open your _file explorer_ with Windows Key + E or clicking the _file explorer_ icon.
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
+      <br>
 
-1. Access the command prompt.
+4. Access the command prompt.
     - Open the Run menu with Windows Key + R, then type "cmd".<br>
-      ![Ui](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
+      ![windows run with CMD](images/QuickStart/Windows/WindowsRtypeCMD.png)<br>
     - Click "Ok".
     - Command prompt window will appear in a few seconds. Command prompt window should look similar the image below.<br>
-      ![Ui](images/QuickStart/Windows/CommandPrompt.png)<br>
-    - If you have issues opening command prompt, you can refer to this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
+      ![command prompt](images/QuickStart/Windows/CommandPrompt.png)<br>
+    - If you have issues opening command prompt, you can refer this [YouTube video](https://www.youtube.com/watch?v=pBheH2QtktI&t=92s).
+      <br>
 
-1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
+5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
    - You can refer to the image below.<br>
-     _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_FOR_MYBOOKSHELF_ might be different from yours.<br>
-   ![Ui](images/QuickStart/Windows/jarmybookshelf.png)<br>
+     _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_ might be different from yours.<br>
+
+   ![command prompt with java -jar mybookshelf.jar](images/QuickStart/Windows/jarmybookshelf.png)<br>
+     <br>
 
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
-   ![Ui](images/QuickStart/Windows/default.png)<br>
+   ![windows default Ui](images/QuickStart/Windows/default.png)<br>
 
 7. Type the command into the command box and press Enter to execute it. e.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
@@ -61,35 +66,37 @@ Tailored for fast typists, MyBookshelf can get your contact and borrowing manage
 ### MacOS
 1. Ensure that you have `Java 11` or above installed in your computer.
     - You can refer to this [YouTube video](https://www.youtube.com/watch?v=3nOmkqO0-SM) to check your current Java version.
-    - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx).
+    - If you do not have `Java 11`, you are recommended to download from [here](https://www.azul.com/downloads/?version=java-11-lts&os=macos&architecture=arm-64-bit&package=jdk-fx)
+      <br>
 
-1. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
+2. Download the latest `mybookshelf.jar` from [here](https://github.com/AY2324S2-CS2103T-F11-2/tp/releases).
 
-1. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
+3. Copy and paste the file to you will use as the _home folder_ for the *MyBookshelf* app.
     - Open your _finder_ by clicking the _finder_ icon.
     - Navigate to the _Downloads_ folder (Default directory for downloaded files will be the _Downloads_ folder).
     - Copy the downloaded `mybookshelf.jar` and paste it to the folder you will use as the _home folder_ for the *MyBookshelf* app.
-
-1. Access the terminal.
+      <br>
+4. Access the terminal.
     - Open the Spotlight search window using Command + Space, then type "Terminal".
     - Double-click on Terminal in search result.<br>
-      ![Ui](images/QuickStart/MacOS/search.png)<br>
+      ![finder search terminal result](images/QuickStart/MacOS/search.png)<br>
     - Terminal window will appear in a few seconds. Terminal window should look similar the image below.<br>
-      ![Ui](images/QuickStart/MacOS/terminal.png)<br>
-    - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best).
+      ![terminal](images/QuickStart/MacOS/terminal.png)<br>
+    - If you have issues opening Terminal window, you can refer [here](https://discussions.apple.com/thread/366608?sortBy=best)
+      <br>
 
-1. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
+5. `cd` into the folder you placed `mybookshelf.jar` file in, and enter the following command to run the application.<br>
    ```
    java -jar mybookshelf.jar
    ```
     - You can refer to the image below.<br>
-      _Note_: _YOUR_USERNAME_ and _HOME_FOLDER_FOR_MYBOOKSHELF_ might be different from yours.<br>
-    ![Ui](images/QuickStart/MacOS/jarmybookshelf.png)<br>
-
+      _Note_: Your directory might be different from the image.<br>
+    ![terminal java -jar mybookshelf.jar](images/QuickStart/MacOS/jarmybookshelf.png)<br>
+      <br>
 
 6. A window similar to the one below should appear in a few seconds. Notice that the app initialises with some sample data.<br>
 
-   ![Ui](images/QuickStart/MacOS/default.png)
+   ![macos default Ui](images/QuickStart/MacOS/default.png)
 
 7. Type the command into the command box and press Enter to execute it. E.g. typing [**`help`**](#viewing-help--help) and pressing Enter will open the help window.<br>
 
@@ -554,13 +561,17 @@ Furthermore, certain edits can cause the MyBookshelf to behave in unexpected way
 
 ## Troubleshooting
 
+You might see something similar to the image below when the command does not run successfully.<br>
+![failing command](images/Troubleshoot/FailingCommand.jpg)
+<br>
+
 ### Unable to add/donate/return a book to the library
 1. Error message received: `Book title cannot be empty!`
    * Reason one: You attempted to add/donate/return a book with an empty book title.
       * Resolve this issue by adding character(s) to the `BOOKTITLE`.
    * Reason two: You attempted to add/donate/return a book which only consists of white space(s).
       * Resolve this issue by altering the `BOOKTITLE` so it consists at least one non-white space character.
-   
+
 1. Error message received: `Multiple values specified for the following single-valued field(s): b/`
    * Reason one: You attempted to add/donate/return a book with `BOOKTITLE` containing " b/". (Note the white space before "b"). In this case, `BOOKTITLE` is interpreted to be "Please b/ careful".
       * Since `b/` is the prefix of `Book`, MyBookshelf restricts commands with `BOOKTITLE` containing " b/".
